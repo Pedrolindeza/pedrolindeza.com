@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pedrolindeza-com"
+version = "0.1.0"
+description = "A funny side project"
+authors = ["Pedrolindeza <pedrosampaiolindeza@gmail.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.0"
+gunicorn = "^21.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
