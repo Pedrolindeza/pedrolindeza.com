@@ -7,7 +7,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-image: url('static/images/background.jpg'); /* Replace 'your-ocean-background.jpg' with the actual path to your image or its URL */
+            background-size: cover; /* Ensures the background image covers the entire viewport */
+            background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+            background-repeat: no-repeat; /* Prevents the background from repeating */
+            background-position: center; /* Centers the background image */
+            background-color: #f5f5f5; /* Fallback background color in case the image doesn't load */
         }
         h1 {
             background-color: #0073e6;
@@ -41,12 +46,13 @@
 <div class="container">
     <div class="faq">
         <h2>Q: Are you allergic to all fish?</h2>
-        <p>A: Yes, my allergy is specific to parvalbumin, a protein found in fish muscles. This means I'm allergic to all types of fish.</p>
+        <p>A: Yes, my allergy is specific to parvalbumin, a protein found in fish muscles. This means I'm allergic to all types of fish. For more information about parvalbumin, you can <a href="https://en.wikipedia.org/wiki/Parvalbumin" target="_blank">visit this link</a>.</p>
     </div>
+
 
     <div class="faq">
         <h2>Q: What about seafood?</h2>
-        <p>A: Seafood often contains parvalbumin, so I am also allergic to seafood like shrimp, crab, and lobster.</p>
+        <p>A: Seafood often contains parvalbumin, however I am not allergic to seafood like shrimp, crab, and lobster.</p>
     </div>
 
     <div class="faq">
@@ -56,7 +62,7 @@
 
     <div class="faq">
         <h2>Q: When did you find out about your allergy?</h2>
-        <p>A: I discovered my allergy to parvalbumin when I had a reaction after consuming fish at the age of 1. It was confirmed through allergy testing.</p>
+        <p>A: I discovered my allergy to parvalbumin when I had a reaction after consuming fish at the age of 1, once exposed to fish soup. It was confirmed through allergy testing.</p>
     </div>
 
     <div class="faq">
@@ -68,6 +74,13 @@
         <h2>Q: How can I help someone with a parvalbumin allergy?</h2>
         <p>A: It's crucial to be aware of their allergy and ask if they carry an epinephrine (adrenaline) auto-injector (like an EpiPen). In case of a severe allergic reaction, using the auto-injector and seeking immediate medical attention is essential.</p>
     </div>
+
+    <div class="faq">
+        <h2>Q: Can I eat fish sauce if I have a parvalbumin allergy?</h2>
+        <p>A: Fish sauce is typically derived from fish and contains parvalbumin. Therefore, it's advisable to avoid fish sauce if you have a parvalbumin allergy. It can trigger allergic reactions.</p>
+    </div>
+
+
 
     <!-- Add more FAQs if needed -->
 </div>
